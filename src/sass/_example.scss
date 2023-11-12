@@ -1,0 +1,44 @@
+.filter-form {
+  margin-top: 30px;
+}
+
+.form-conteiner {
+  justify-content: center;
+  display: flex;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  align-items: center;
+  font-size: 20px;
+}
+
+select {
+  margin-top: 10px;
+  border: 1px solid tomato;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px 2px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: 1px solid yellowgreen;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
