@@ -1,2 +1,27 @@
 @import './common';
-@import './example';
+@import './web-hranilishe-localStorage.scss';
+@import './feedback-localStorage.scss';
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 7px 12px;
+  border-radius: 5px;
+  margin: 20px 0 0 20px;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}

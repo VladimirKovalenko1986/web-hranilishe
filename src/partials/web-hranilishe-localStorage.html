@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-hranilishe-localStorage</title>
+    <link rel="stylesheet" href="../sass/web-hranilishe-localStorage.scss" />
+  </head>
+  <body>
+    <a href="../index.html" class="link">Home</a>
+
+    <form class="filter-form js-form">
+      <div class="form-conteiner">
+        <label>
+          Колір
+          <select name="color">
+            <option value="red">Червоний</option>
+            <option value="green">Зелений</option>
+            <option value="blue">Синій</option>
+          </select>
+        </label>
+
+        <label
+          >Розмір
+          <select name="size">
+            <option value="sm">Маленький</option>
+            <option value="md">Середній</option>
+            <option value="xl">Великий</option>
+          </select>
+        </label>
+
+        <label
+          >Матеріал
+          <select name="material">
+            <option value="steel">Залізо</option>
+            <option value="wood">Дерево</option>
+            <option value="plastic">Платик</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <button type="submit">Прийняти</button>
+        <button type="reset">Скинути</button>
+      </div>
+    </form>
+
+    <script src="../js/web-hranilishe-localStorage.js" type="module"></script>
+  </body>
+</html>

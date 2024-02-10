@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>feedback-localStorage</title>
+    <link rel="stylesheet" href="../sass/feedback-localStorage.scss" />
+  </head>
+  <body>
+    <a href="../index.html" class="link">Home</a>
+
+    <form class="form">
+      <label>
+        <b class="form-text">Name</b>
+        <input
+          class="form-input"
+          type="text"
+          name="name"
+          placeholder="Enter you name"
+          value="Anonymous"
+        />
+      </label>
+
+      <label>
+        <b class="form-text">Message</b>
+        <textarea
+          class="form-textarea"
+          name="message"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </label>
+      <button type="submit" class="submit-btn">Submite</button>
+    </form>
+
+    <script src="../js/feedback-localStorage.js" type="module"></script>
+  </body>
+</html>

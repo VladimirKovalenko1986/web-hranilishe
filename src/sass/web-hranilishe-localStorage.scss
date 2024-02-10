@@ -1,3 +1,21 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 7px 12px;
+  border-radius: 5px;
+  margin: 20px 0 0 20px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
 .filter-form {
   margin-top: 30px;
 }

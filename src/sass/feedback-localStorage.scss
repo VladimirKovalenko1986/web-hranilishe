@@ -1,0 +1,64 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 7px 12px;
+  border-radius: 5px;
+  margin: 20px 0 0 20px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.form-input {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.form-textarea {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 300px;
+}
+
+.form-text {
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.submit-btn {
+  color: white;
+  background-color: blue;
+  padding: 7px 12px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  cursor: pointer;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
